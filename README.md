@@ -4,3 +4,4 @@
 1.~~HTML~~
 2.Javascript
 3.Rust
+![It's a Rusty Affair](/Rusty_and_Crusty_Padlock.jpg)
