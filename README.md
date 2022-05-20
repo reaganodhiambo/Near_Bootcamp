@@ -3,4 +3,4 @@
 *In this 3 day bootcamp, We'll learn the basics of Web3 using:*
 1.~~HTML~~
 2.Javascript
-3.Rust
+3.Rust{.red}
