@@ -7,7 +7,7 @@ fn main() {
     my_fun_3("Fadhelah".to_string());
     my_fun_4();
     my_fun_5();
-    random_shit();
+    while_true();
     else_else();
 }
 
@@ -28,7 +28,7 @@ fn my_fun_5() ->f32{
     30.3
 }
 
-fn random_shit(){
+fn while_true(){
     let mut my_number: i32 = 3;
     loop{
         println!("Again! number {}", my_number);
