@@ -9,6 +9,7 @@ fn main() {
     my_fun_5();
     while_true();
     else_else();
+    borrower();
 }
 
 //Functions
@@ -52,8 +53,11 @@ fn else_else(){
 
 //ownership
 fn borrower(){
-    let mut s:String = String::from("Hello")
+    let s1 = String::from("hello");
+    let s2 = s1;
 
-    // let r1:&mut String = &s;
+    println!("{}, world!", s2);
     // let r2:&mut String = &s;
 }
+
+
